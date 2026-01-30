@@ -56,7 +56,11 @@ Pagina principală:
 
 Structura permite adăugarea ușoară de:
 
+- pagini sau secțiuni noi
 - limbi suplimentare
-- formular avansat de contact
-- programări online
-- panou de administrare
+- componente UI reutilizabile
+- endpoint-uri AJAX noi
+- îmbunătățiri pentru formularul de contact
+- autentificare și panou de administrare
+- integrare bază de date (MySQL)
+- module de programări sau gestionare cursuri
