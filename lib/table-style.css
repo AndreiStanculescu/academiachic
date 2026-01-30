@@ -1,0 +1,46 @@
+/* Cap de tabel - mov, text alb și prima literă mare */
+table.dataTable thead {
+    background-color: #6f42c1 !important; /* mov Bootstrap */
+    color: white !important;
+    text-transform: capitalize;
+}
+
+/* Celulele din capul de tabel */
+table.dataTable thead th {
+    color: white !important;
+    text-align: center; /* 🔹 Centrează textul în celulă */
+    vertical-align: middle; /* 🔹 Centrează pe verticală */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Celulele din corpul tabelului */
+table.dataTable tbody td {
+    text-align: center; /* 🔹 Centrează textul orizontal */
+    vertical-align: middle; /* 🔹 Centrează textul vertical */
+}
+
+/* Bordură subțire și hover pentru rânduri */
+table.dataTable tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Container pentru a micșora și centra tabelul */
+.table-container {
+    max-width: 800px; /* 🔹 modifică după gust: 600px, 700px, 900px etc. */
+    margin: 0 auto;   /* 🔹 centrează orizontal */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabelul să ocupe toată lățimea containerului, nu a ecranului */
+.table-container table {
+    width: 100% !important;
+}
+

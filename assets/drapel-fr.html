@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gradient ultra-smooth - Drapelul Franței</title>
+  <style>
+    :root{
+      --france-blue:  #0055A4;
+      --france-white: #FFFFFF;
+      --france-red:   #EF4135;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    html,body{
+      height:100%;
+    }
+
+    body{
+      /* Gradient mult mai fin, cu tranziții foarte lungi între culori */
+      background: linear-gradient(
+        to right,
+        var(--france-blue) 0%,
+        #2a72c7 15%,
+        #6aa1e2 30%,
+        #b6d0f5 45%,
+        var(--france-white) 55%,
+        #fbe4e0 70%,
+        #f7a59b 85%,
+        var(--france-red) 100%
+      );
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      color:#111;
+      transition: background 1s ease-in-out;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(10px); /* mai blurat pentru efect elegant */
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      max-width: 720px;
+      width: calc(100% - 2rem);
+      text-align:center;
+      transition: all 0.4s ease;
+    }
+
+    .card:hover {
+      background: rgba(255,255,255,0.8);
+      transform: scale(1.02);
+    }
+
+    @media (max-width:520px){
+      .card{padding:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="card" role="region" aria-label="Gradient ultra smooth drapel Franței">
+  </div>
+</body>
+</html>

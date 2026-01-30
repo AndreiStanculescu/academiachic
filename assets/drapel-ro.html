@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gradient ultra-smooth - Drapelul României</title>
+  <style>
+    :root{
+      --romania-blue:  #002B7F;
+      --romania-yellow:#FCD116;
+      --romania-red:   #CE1126;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+
+    html,body{
+      height:100%;
+    }
+
+    body{
+      /* Gradient ultra-smooth inspirat de drapelul României */
+      background: linear-gradient(
+        to right,
+        var(--romania-blue) 0%,
+        #1b4ea8 15%,
+        #4f7ed0 30%,
+        #a8bff0 45%,
+        var(--romania-yellow) 55%,
+        #fddd5f 70%,
+        #f5a45f 85%,
+        var(--romania-red) 100%
+      );
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      color:#111;
+      transition: background 1s ease-in-out;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      max-width: 720px;
+      width: calc(100% - 2rem);
+      text-align:center;
+      transition: all 0.4s ease;
+    }
+
+    .card:hover {
+      background: rgba(255,255,255,0.8);
+      transform: scale(1.02);
+    }
+
+    @media (max-width:520px){
+      .card{padding:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="card" role="region" aria-label="Gradient ultra smooth drapelul României">
+  </div>
+</body>
+</html>

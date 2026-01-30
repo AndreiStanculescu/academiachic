@@ -1,0 +1,96 @@
+       body {
+           background-color: #f0f4f8;
+       }
+
+       .login-container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           min-height: 100vh;
+       }
+
+       .login-card {
+           background-color: white;
+           padding: 40px;
+           border-radius: 10px;
+           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+           width: 100%;
+           max-width: 400px;
+       }
+
+       .login-card h2 {
+           margin-bottom: 30px;
+           text-align: center;
+           color: #1E90FF;
+           /* same bleu as header/footer */
+       }
+
+       .login-card .form-control:focus {
+           border-color: #1E90FF;
+           box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.25);
+       }
+
+       .btn-login {
+           background-color: #1E90FF;
+           color: white;
+           width: 100%;
+       }
+
+       .btn-login:hover {
+           background-color: #1c86ee;
+       }
+
+       .forgot-password {
+           display: block;
+           margin-top: 10px;
+           text-align: right;
+       }
+
+       .forgot-password a {
+           color: #1E90FF;
+           text-decoration: none;
+       }
+
+       .forgot-password a:hover {
+           text-decoration: underline;
+       }
+
+       /* Dimensiune imagine din stanga pt login page */
+       .card .img-fluid {
+           height: 100%;
+           /* ocupă întreaga înălțime a coloanei */
+           width: 100%;
+           /* ocupa toată lățimea coloanei */
+           object-fit: cover;
+           /* scalează fără deformare */
+           border-radius: 1rem 0 0 1rem;
+           /* păstrează colțurile rotunjite */
+       }
+
+       /* Container logo + titlu */
+       .logo-title-container .logo {
+           height: 8vh;
+           /* logo-ul ia 8% din înălțimea viewport-ului */
+           width: auto;
+           /* păstrează proporțiile */
+           max-height: 80px;
+           /* nu depăși 80px pe desktop */
+       }
+
+       /* Titlu */
+       .logo-title-container .logo-title {
+           font-size: 2rem;
+           /* dimensiune standard */
+       }
+
+       @media (max-width: 768px) {
+           .logo-title-container .logo {
+               height: 6vh;
+               /* mai mic pe mobil */
+           }
+
+           .logo-title-container .logo-title {
+               font-size: 1.5rem;
+               /* titlu mai mic pe mobil */
+           }
+       }

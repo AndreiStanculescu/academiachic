@@ -1,0 +1,26 @@
+CHANGELOG
+=========
+
+Toate modificarile importante ale acestui proiect sunt documentate in acest fisier.
+
+[Unreleased]
+------------
+Added
+Changed
+Fixed
+Removed
+
+
+[1.0.0] - 2026-01-29
+--------------------
+Added
+- Lansare initiala a site-ului
+
+Changed
+- --
+
+Fixed
+- --
+
+Removed
+- --
