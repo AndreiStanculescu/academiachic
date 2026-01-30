@@ -32,10 +32,16 @@ body {
     overflow: hidden;
 
     /* Două background-uri */
-    background-image: url('../assets/1.jpg'), url('../assets/2.jpg');
+    /* background-image: url('../assets/1.jpg'), url('../assets/2.jpg');
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right top;
-    background-size: 50% 100%, 50% 100%;
+    background-size: 50% 100%, 50% 100%; */
+
+    background-image: url('../assets/poza_acasa3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
 }
 
 /* Linie verticală peste imagini */

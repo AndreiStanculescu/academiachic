@@ -18,7 +18,8 @@ session_start();
 // }
 
 
-$mail_contact = "template_mail";
+$mail_contact = "contact@academiachic.com";
+$phone_contact = "+40 733 524 408";
 $logo = "assets/logo.png";
 
 $culoareBody = "#1a1a1a";
@@ -59,7 +60,6 @@ $translations = [
         // index
         'titlu-cursuri' => "Trăiește experiența Academia Chic",
         'text-cursuri' => 'Text cursuri ro',
-        'text-contact' => 'Text contact ro',
         'titlu-blog' => 'Blog',
         'text-blog' => 'Text blog ro',
         // despre_noi
@@ -177,8 +177,8 @@ Recomandate pentru formări intensive în grup, pregătirea examenelor sau pentr
         // contact
         'titlu-contact' => 'Contact',
         'text-contact' => '<p>Pentru detalii privind cursurile de limba franceză și limba română, cu accent pe comunicarea generală, profesională și medicală, poți să ne contactezi direct:</p>
-<br>Telefon: [număr de telefon]
-<br>E-mail: [adresă de e-mail]<br><br>
+<br>Telefon: ' . $phone_contact .'
+<br>E-mail: ' . $mail_contact .'<br><br>
 <p>Îți vom răspunde cu plăcere și te vom ajuta să alegi cursul potrivit nevoilor tale.</p>',
         // pregatire_examene_delf 
         'titlu-pregatire-delf' => 'Pregătire examene DELF / DALF',
@@ -504,8 +504,8 @@ Recommandées pour des formations intensives en groupe, la préparation aux exam
         // contact
         'titlu-contact' => 'Contact',
         'text-contact' => '<p>Pour plus de détails concernant les cours de langue française et de langue roumaine, avec un accent sur la communication générale, professionnelle et médicale, tu peux nous contacter directement:</p>
-<br>Téléphone : [numéro de téléphone]
-<br>E-mail : [adresse e-mail]<br><br>
+<br>Téléphone : ' . $phone_contact . '
+<br>E-mail : ' . $mail_contact .'<br><br>
 <p>Nous te répondrons avec plaisir et t’aiderons à choisir le cours le plus adapté à tes besoins.</p>',
         // pregatire_examene_delf 
         'titlu-pregatire-delf' => 'Préparation aux examens DELF / DALF',
