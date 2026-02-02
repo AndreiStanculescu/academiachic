@@ -17,6 +17,8 @@ session_start();
 //     //echo "Conectare reusita la MySQL!";
 // }
 
+$firma = "template";
+$cui = "template";
 
 $mail_contact = "contact@academiachic.com";
 $phone_contact = "+40 733 524 408";
@@ -25,6 +27,8 @@ $logo = "assets/logo.png";
 $culoareBody = "#1a1a1a";
 $culoarePrincipala = "#222";
 $culoareSecundara = "#c22cba";
+
+
 
 
 
@@ -214,7 +218,7 @@ Recomandate pentru formări intensive în grup, pregătirea examenelor sau pentr
         'titlu-termeni-conditii' => 'Termeni și condiții',
 
         'text-termeni-conditii1'=> '1. Informații generale<br>',
-        'text-termeni-conditii2' => 'Prezentul document stabilește termenii și condițiile de utilizare ale site-ului Academia Chic, administrat de SC EJB UNIQUE SRL, cu sediul în București, CUI 39422698, denumită în continuare „Furnizorul”.
+        'text-termeni-conditii2' => 'Prezentul document stabilește termenii și condițiile de utilizare ale site-ului Academia Chic, administrat de ' . $firma . ', cu sediul în București, ' . $cui . ', denumită în continuare „Furnizorul”.
 Prin accesarea și utilizarea site-ului, utilizatorul acceptă acești termeni și condiții. Dacă nu sunteți de acord cu aceștia, vă rugăm să nu utilizați site-ul.<br><br>',
 
         'text-termeni-conditii3' => '2. Scopul site-ului<br>',
@@ -261,7 +265,7 @@ Furnizorul își rezervă dreptul de a restricționa accesul utilizatorilor care
         'titlu-politica' => 'Politica de confidențialitate',
 
         'text-politica1' => '1. Informații generale<br>',
-        'text-politica2' => 'SC EJB UNIQUE SRL, cu sediul în București, CUI 39422698, în calitate de operator de date cu caracter personal, respectă confidențialitatea datelor persoanelor care accesează site-ul Academia Chic și se angajează să le prelucreze în conformitate cu Regulamentul (UE) 2016/679 privind protecția datelor cu caracter personal (GDPR) și legislația națională aplicabilă.<br>
+        'text-politica2' => '' . $firma . ', cu sediul în București, ' . $cui . ', în calitate de operator de date cu caracter personal, respectă confidențialitatea datelor persoanelor care accesează site-ul Academia Chic și se angajează să le prelucreze în conformitate cu Regulamentul (UE) 2016/679 privind protecția datelor cu caracter personal (GDPR) și legislația națională aplicabilă.<br>
 Prezenta Politică de confidențialitate explică modul în care sunt colectate, utilizate și protejate datele cu caracter personal ale utilizatorilor site-ului.<br><br>',
 
         'text-politica3' => '2. Categorii de date cu caracter personal prelucrate<br>',
@@ -314,7 +318,7 @@ Toți partenerii care pot avea acces la date sunt obligați să respecte confide
         'text-politica18' => 'Site-ul utilizează cookie-uri strict necesare pentru funcționarea sa. Informații detaliate sunt disponibile în Politica de cookie-uri, document distinct, disponibil pe site.<br><br>',
 
         'text-politica19' => '10. Modificări ale politicii de confidențialitate<br>',
-        'text-politica20' => 'SC EJB UNIQUE SRL își rezervă dreptul de a actualiza prezenta Politică de confidențialitate. Versiunea actualizată va fi publicată pe site și va produce efecte de la data publicării.<br><br>',
+        'text-politica20' => '' . $firma . ' își rezervă dreptul de a actualiza prezenta Politică de confidențialitate. Versiunea actualizată va fi publicată pe site și va produce efecte de la data publicării.<br><br>',
 
         'text-politica21' => '11. Contact<br>',
         'text-politica22' => 'Pentru orice solicitări privind protecția datelor cu caracter personal, ne puteți contacta la datele de contact afișate pe site.<br><br>',
@@ -322,7 +326,7 @@ Toți partenerii care pot avea acces la date sunt obligați să respecte confide
         'titlu-cookies' => 'Politica de cookie-uri',
 
         'text-cookies1' => '1. Informații generale<br>',
-        'text-cookies2' => 'Prezenta Politică de cookie-uri se aplică site-ului Academia Chic, administrat de SC EJB UNIQUE SRL, cu sediul în București, CUI 39422698, și are rolul de a informa utilizatorii cu privire la utilizarea cookie-urilor pe acest site.<br><br>',
+        'text-cookies2' => 'Prezenta Politică de cookie-uri se aplică site-ului Academia Chic, administrat de ' . $firma . ', cu sediul în București, ' . $cui . ', și are rolul de a informa utilizatorii cu privire la utilizarea cookie-urilor pe acest site.<br><br>',
 
         'text-cookies3' => '2. Ce sunt cookie-urile<br>',
         'text-cookies4' => 'Cookie-urile sunt fișiere de mici dimensiuni, formate din litere și cifre, stocate pe dispozitivul utilizatorului (computer, telefon mobil, tabletă) atunci când acesta accesează un site web. Cookie-urile permit recunoașterea dispozitivului utilizatorului și contribuie la funcționarea corectă și eficientă a site-ului.<br><br>',
@@ -355,7 +359,7 @@ Setările privind cookie-urile pot fi modificate din browserul utilizatorului.<b
         'text-cookies14' => 'Pentru informații suplimentare privind prelucrarea datelor cu caracter personal, utilizatorii sunt încurajați să consulte Politica de confidențialitate, disponibilă pe site.<br><br>',
 
         'text-cookies15' => '8. Modificări ale politicii de cookie-uri<br>',
-        'text-cookies16' => 'SC EJB UNIQUE SRL își rezervă dreptul de a actualiza prezenta Politică de cookie-uri. Versiunea actualizată va fi publicată pe site și va produce efecte de la data publicării.<br><br>',
+        'text-cookies16' => '' . $firma . ' își rezervă dreptul de a actualiza prezenta Politică de cookie-uri. Versiunea actualizată va fi publicată pe site și va produce efecte de la data publicării.<br><br>',
 
         'text-cookies17' => '9. Contact<br>',
         'text-cookies18' => 'Pentru întrebări sau solicitări privind utilizarea cookie-urilor, ne puteți contacta la datele de contact afișate pe site.<br><br>',
@@ -542,7 +546,7 @@ Recommandées pour des formations intensives en groupe, la préparation aux exam
         'titlu-termeni-conditii' => 'Termes et conditions',
 
         'text-termeni-conditii1'=> '1. Informations générales<br>',
-        'text-termeni-conditii2' => 'Le présent document établit les termes et conditions d’utilisation du site Academia Chic, administré par SC EJB UNIQUE SRL, dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) 39422698, ci-après dénommée le « Fournisseur ».<br>
+        'text-termeni-conditii2' => 'Le présent document établit les termes et conditions d’utilisation du site Academia Chic, administré par ' . $firma . ', dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) ' . $cui . ', ci-après dénommée le « Fournisseur ».<br>
 En accédant au site et en l’utilisant, l’utilisateur accepte les présents termes et conditions. Si vous n’êtes pas d’accord avec ceux-ci, veuillez ne pas utiliser le site.<br><br>',
 
         'text-termeni-conditii3' => '2. Objet du site<br>',
@@ -589,7 +593,7 @@ Le Fournisseur se réserve le droit de restreindre l’accès aux utilisateurs q
         'titlu-politica' => 'Politique de confidentialité',
 
         'text-politica1' => '1. Informations générales<br>',
-        'text-politica2' => 'SC EJB UNIQUE SRL, dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) 39422698, en qualité de responsable du traitement des données à caractère personnel, respecte la confidentialité des données des personnes qui accèdent au site Academia Chic et s’engage à les traiter conformément au Règlement (UE) 2016/679 relatif à la protection des données à caractère personnel (RGPD) ainsi qu’à la législation nationale applicable.<br>
+        'text-politica2' => '' . $firma . ', dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) ' . $cui . ', en qualité de responsable du traitement des données à caractère personnel, respecte la confidentialité des données des personnes qui accèdent au site Academia Chic et s’engage à les traiter conformément au Règlement (UE) 2016/679 relatif à la protection des données à caractère personnel (RGPD) ainsi qu’à la législation nationale applicable.<br>
 La présente Politique de confidentialité explique la manière dont les données à caractère personnel des utilisateurs du site sont collectées, utilisées et protégées.<br><br>',
 
         'text-politica3' => '2. Catégories de données à caractère personnel traitées<br>',
@@ -642,7 +646,7 @@ Tous les partenaires susceptibles d’avoir accès aux données sont tenus de re
         'text-politica18' => 'Le site utilise uniquement des cookies strictement nécessaires à son fonctionnement. Des informations détaillées sont disponibles dans la Politique relative aux cookies, document distinct accessible sur le site.<br><br>',
 
         'text-politica19' => '10. Modifications de la politique de confidentialité<br>',
-        'text-politica20' => 'SC EJB UNIQUE SRL se réserve le droit de mettre à jour la présente Politique de confidentialité. La version mise à jour sera publiée sur le site et produira ses effets à compter de la date de publication.<br><br>',
+        'text-politica20' => '' . $firma . ' se réserve le droit de mettre à jour la présente Politique de confidentialité. La version mise à jour sera publiée sur le site et produira ses effets à compter de la date de publication.<br><br>',
 
         'text-politica21' => '11. Contact<br>',
         'text-politica22' => 'Pour toute demande relative à la protection des données à caractère personnel, vous pouvez nous contacter aux coordonnées indiquées sur le site.<br><br>',
@@ -650,7 +654,7 @@ Tous les partenaires susceptibles d’avoir accès aux données sont tenus de re
         'titlu-cookies' => 'Politique relative aux cookies',
 
         'text-cookies1' => '1. Informations générales<br>',
-        'text-cookies2' => 'La présente Politique relative aux cookies s’applique au site Academia Chic, administré par SC EJB UNIQUE SRL, dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) 39422698. Elle a pour objet d’informer les utilisateurs sur l’utilisation des cookies sur ce site.<br><br>',
+        'text-cookies2' => 'La présente Politique relative aux cookies s’applique au site Academia Chic, administré par ' . $firma . ', dont le siège social est situé à Bucarest, code d’identification fiscale (CUI) ' . $cui . '. Elle a pour objet d’informer les utilisateurs sur l’utilisation des cookies sur ce site.<br><br>',
 
         'text-cookies3' => '2. Qu’est-ce qu’un cookie ?<br>',
         'text-cookies4' => 'Les cookies sont de petits fichiers composés de lettres et de chiffres, stockés sur l’appareil de l’utilisateur (ordinateur, téléphone mobile, tablette) lorsqu’il accède à un site web. Les cookies permettent de reconnaître l’appareil de l’utilisateur et contribuent au bon fonctionnement et à l’efficacité du site.<br><br>',
@@ -683,7 +687,7 @@ Les paramètres relatifs aux cookies peuvent être modifiés directement dans le
         'text-cookies14' => 'Pour plus d’informations concernant le traitement des données à caractère personnel, les utilisateurs sont invités à consulter la Politique de confidentialité, disponible sur le site.<br><br>',
 
         'text-cookies15' => '8. Modifications de la politique relative aux cookies<br>',
-        'text-cookies16' => 'SC EJB UNIQUE SRL se réserve le droit de mettre à jour la présente Politique relative aux cookies. La version mise à jour sera publiée sur le site et prendra effet à compter de la date de publication.<br><br>',
+        'text-cookies16' => '' . $firma . ' se réserve le droit de mettre à jour la présente Politique relative aux cookies. La version mise à jour sera publiée sur le site et prendra effet à compter de la date de publication.<br><br>',
 
         'text-cookies17' => '9. Contact<br>',
         'text-cookies18' => 'Pour toute question ou demande concernant l’utilisation des cookies, vous pouvez nous contacter aux coordonnées indiquées sur le site.<br><br>',
