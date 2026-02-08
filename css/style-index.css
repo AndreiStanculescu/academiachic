@@ -45,7 +45,7 @@ body {
 }
 
 /* Linie verticală peste imagini */
-.hero::before {
+/* .hero::before {
     content: '';
     position: absolute;
     top: 0;
@@ -55,7 +55,7 @@ body {
     height: 100%; 
     background-color: var(--primary-color); 
     z-index: 1;
-}
+} */
 
 /* SECTIUNE CARTONASE */
 .cards-section {
