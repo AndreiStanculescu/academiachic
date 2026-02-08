@@ -24,7 +24,12 @@ $mail_contact = "contact@academiachic.com";
 $phone_contact = "+40 733 524 408";
 $logo = "assets/logo.png";
 
-$culoareBody = "#1a1a1a";
+//Pagini text
+$culoareBody = "#fcd9f7";
+$culoareH1 = "black";
+$culoareLabel = "black";
+
+// Header / footer
 $culoarePrincipala = "#222";
 $culoareSecundara = "#c22cba";
 

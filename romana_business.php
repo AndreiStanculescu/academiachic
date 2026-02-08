@@ -16,6 +16,8 @@ require_once "config.php";
     <style>
         :root {
             --body-color: <?= $culoareBody ?>;
+            --h1-color: <?= $culoareH1 ?>;
+            --label-color: <?= $culoareLabel ?>; 
             --primary-color: <?= $culoarePrincipala ?>;
             --secondary-color: <?= $culoareSecundara ?>;
         }
