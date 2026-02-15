@@ -25,13 +25,13 @@ $phone_contact = "+40 733 524 408";
 $logo = "assets/logo.png";
 
 //Pagini text
-$culoareBody = "#fcd9f7";
+$culoareBody = "#F6D6D8"; //"#fcd9f7";
 $culoareH1 = "black";
 $culoareLabel = "black";
 
 // Header / footer
 $culoarePrincipala = "#222";
-$culoareSecundara = "#c22cba";
+$culoareSecundara = "#F6D6D8";
 
 
 

@@ -18,17 +18,22 @@ body {
 }
 
 /* IMAGINI */
-img {
+/* img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+} */
+ img {
+    width: 100%;
+    height: auto;
 }
 
 /* Sectiune hero: text stanga + poza dreapta */
 .hero {
     display: flex;
-    align-items: center;
-    padding: 8% 50px 50px; /* 8% împinge tot conținutul sub headerul mare */
+    /* align-items: center; */
+    align-items: flex-start;
+    padding: 8% 50px 50px;
     gap: 40px;
 }
 
@@ -45,6 +50,7 @@ img {
     object-fit: cover;
     border: 3px; /*solid var(--h1-color); */
     border-radius: 5%;
+    margin-top: 5vh;
     
 }
 
