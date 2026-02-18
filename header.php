@@ -1,4 +1,6 @@
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- import font logo -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
@@ -9,9 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
-
-
 
 
 
@@ -30,7 +29,7 @@
   <div class="header-container">
 
     <div class="logo">
-      <span><?=$t['nume_aplicatie'] ?></span>
+      <span><?= $t['nume_aplicatie'] ?></span>
     </div>
     <!-- Linkuri vizibile mereu -->
     <div class="main-links">
@@ -38,9 +37,6 @@
         <?= $t['titlu-acasa'] ?>
       </a>
 
-      <a href="despre_noi.php" class="nav-link <?= ($currentPage === 'despre_noi.php') ? 'active' : '' ?>">
-        <?= $t['titlu-despre'] ?>
-      </a>
     </div>
 
     <!-- Hamburger -->
@@ -52,7 +48,9 @@
 
     <!-- Meniul care intră în hamburger -->
     <nav class="navbar">
-
+      <a href="despre_noi.php" class="nav-link <?= ($currentPage === 'despre_noi.php') ? 'active' : '' ?>">
+        <?= $t['titlu-despre'] ?>
+      </a>
       <div class="courses-switch">
         <button class="courses-btn"><?= $t['cursuri-franceza'] ?><span class="chevron"></span></button>
         <ul class="courses-dropdown">
