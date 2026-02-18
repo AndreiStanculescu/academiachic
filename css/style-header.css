@@ -376,7 +376,14 @@
   @media (max-width: 990px) {
     .hamburger {
       display: flex;
-      margin-right: 2rem;
+      margin-right: 1rem;
+    }
+
+    .nav-link,
+    .courses-btn,
+    .lang-btn {
+      padding: 0.8rem 1.2rem;
+      font-size: 0.8rem;
     }
 
     .navbar {
@@ -405,12 +412,7 @@
       white-space: nowrap;
     }
 
-    .nav-link,
-    .courses-btn,
-    .lang-btn {
-      padding: 0.8rem 1.2rem;
-      font-size: 0.8rem;
-    }
+
 
     /* Dropdowns ocupă toată lățimea */
     .courses-dropdown,
@@ -428,6 +430,67 @@
   }
 
 
-/* TELEFOANE */
+  /* TELEFOANE */
   @media (max-width: 480px) {
+    .hamburger {
+      display: flex;
+      margin-right: 1rem;
+    }
+
+    .nav-link,
+    .courses-btn,
+    .lang-btn {
+      padding: 0.5rem 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100vh;
+      width: 70%;
+      max-width: 280px;
+      background-color: var(--primary-color);
+      padding: 5rem 1.5rem 2rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      transition: right 0.35s ease;
+      overflow-y: auto;
+      z-index: 2000;
+    }
+
+    .navbar.open {
+      right: 0;
+    }
+
+    /* Dropdowns ocupă toată lățimea */
+    .courses-dropdown,
+    .lang-dropdown {
+      position: static;
+      background: var(--primary-color);
+      box-shadow: none;
+      width: 100%;
+      margin-left: 0.5rem;
+    }
+
+    .chevron {
+      display: none;
+    }
+
+    .hamburger span {
+      height: 4px;
+      width: 32px;
+      background: #fff;
+      border-radius: 3px;
+      display: block;
+      transition: 0.3s;
+    }
+
+      .logo {
+      font-size: 1.3rem;
+      white-space: nowrap;
+    }
+
   }
