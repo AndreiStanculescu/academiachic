@@ -1,4 +1,20 @@
 <head>
+  <!-- import font logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+
+
+
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/style-header.css">
   <style>
@@ -13,6 +29,9 @@
 <header class="main-header">
   <div class="header-container">
 
+    <div class="logo">
+      <span><?=$t['nume_aplicatie'] ?></span>
+    </div>
     <!-- Linkuri vizibile mereu -->
     <div class="main-links">
       <a href="index.php" class="nav-link <?= ($currentPage === 'index.php') ? 'active' : '' ?>">

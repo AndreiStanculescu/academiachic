@@ -16,6 +16,59 @@
   }
 
 
+  /* LOGO */
+
+  .logo {
+    margin-right: auto;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Allura', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Patrick Hand', cursive; */
+    font-size: 48px;
+    color: var(--body-color);
+    letter-spacing: 2px;
+    position: relative;
+
+    cursor: pointer;
+    transition: text-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+
+  .logo:hover {
+  text-shadow: 0 0 12px var(--body-color);
+  transform: translateY(-3px);
+  }
+
+  .logo::before,
+  .logo::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background: var(--body-color);
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+  }
+
+  .logo::before {
+    top: -10px;
+  }
+
+  .logo::after {
+    bottom: -10px;
+  }
+
+  .logo span {
+    font-style: italic;
+    letter-spacing: 4px;
+  }
 
   .navbar {
     display: flex;
@@ -287,7 +340,7 @@
   /* Highlight pagina curenta */
   .nav-link.active {
     background-color: #fff;
-    color: var(--primary-color); 
+    color: var(--primary-color);
     box-shadow: 0 0 0 2px #fff;
   }
 
@@ -401,7 +454,7 @@
       padding: 0.4rem 0.6rem;
     }
 
-     .navbar {
+    .navbar {
       position: fixed;
       top: 0;
       right: -100%;
