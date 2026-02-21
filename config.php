@@ -26,8 +26,10 @@ $logo = "assets/logo.png";
 
 //Pagini text
 $culoareBody = "#F6D6D8"; //"#fcd9f7";
-$culoareH1 = "black";
-$culoareLabel = "black";
+$culoareH1 = "#222";
+$culoareLabel = "#222";
+$culoareHeader = "#222";
+$culoareFooter= "#222";
 
 // Header / footer
 $culoarePrincipala = "#222";

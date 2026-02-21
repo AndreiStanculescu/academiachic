@@ -19,6 +19,10 @@
   <style>
     :root {
       --body-color: <?= $culoareBody ?>;
+      --h1-color: <?= $culoareH1 ?>;
+      --label-color: <?= $culoareLabel ?>;
+      --header-color: <?= $culoareHeader ?>;
+      --footer-color: <?= $culoareFooter ?>;
       --primary-color: <?= $culoarePrincipala ?>;
       --secondary-color: <?= $culoareSecundara ?>;
     }
