@@ -15,7 +15,6 @@
 
 
   /* LOGO */
-
   .logo {
     margin-right: auto;
     /* font-family: 'Playfair Display', serif; */
@@ -69,6 +68,12 @@
     font-style: italic;
     letter-spacing: 4px;
     white-space: nowrap;
+  }
+
+  .logo a.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
   }
 
   .navbar {
@@ -181,7 +186,7 @@
 
   .courses-btn:hover {
     background-color: #fff;
-    color:var(--header-color);
+    color: var(--header-color);
     transform: translateY(-2px);
   }
 
@@ -488,7 +493,7 @@
       transition: 0.3s;
     }
 
-      .logo {
+    .logo {
       font-size: 1.3rem;
       white-space: nowrap;
     }

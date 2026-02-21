@@ -156,6 +156,13 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .hero {
+        background-image: none; 
+        background-color: var(--body-color);
+    }
+}
+
 /* TELEFOANE MICI */
 @media (max-width: 480px) {
     .hero img {

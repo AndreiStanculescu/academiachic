@@ -155,12 +155,9 @@ img {
         text-align: center;
         padding: 25% 20px 40px;
     }
-
-    .hero img {
-        width: 90%;
-        height: auto;
-        border-radius: 5%;
-        margin-top: -20px;
+    
+  .hero img {
+        display: none;
     }
 
     .hero-content h1 {

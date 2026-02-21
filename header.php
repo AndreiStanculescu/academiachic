@@ -31,15 +31,17 @@
   <div class="header-container">
 
     <div class="logo">
-      <span><?= $t['nume_aplicatie'] ?></span>
+      <a href="index.php" class="logo-link">
+        <span><?= $t['nume_aplicatie'] ?></span>
+      </a>
     </div>
     <!-- Linkuri vizibile mereu -->
-    <div class="main-links">
+    <!-- <div class="main-links">
       <a href="index.php" class="nav-link <?= ($currentPage === 'index.php') ? 'active' : '' ?>">
         <?= $t['titlu-acasa'] ?>
       </a>
 
-    </div>
+    </div> -->
 
     <!-- Hamburger -->
     <button class="hamburger">
