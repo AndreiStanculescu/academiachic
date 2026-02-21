@@ -101,7 +101,7 @@
   }
 
   .lang-btn {
-    background: var(--primary-color);
+    background: var(--h1-color);
     border: 1px solid #fff;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -169,7 +169,7 @@
   }
 
   .courses-btn {
-    background: var(--primary-color);
+    background: var(--h1-color);
     border: 1px solid #fff;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -306,7 +306,7 @@
   /* Highlight pagina curenta */
   .nav-link.active {
     background-color: #fff;
-    color: var(--primary-color);
+    color: var(--h1-color);
     box-shadow: 0 0 0 2px #fff;
   }
 
@@ -393,7 +393,7 @@
       height: 100vh;
       width: 70%;
       max-width: 280px;
-      background-color: var(--primary-color);
+      background-color: var(--h1-color);
       padding: 5rem 1.5rem 2rem;
       flex-direction: column;
       align-items: flex-start;
@@ -418,7 +418,7 @@
     .courses-dropdown,
     .lang-dropdown {
       position: static;
-      background: var(--primary-color);
+      background: var(--h1-color);
       box-shadow: none;
       width: 100%;
       margin-left: 0.5rem;
@@ -451,7 +451,7 @@
       height: 100vh;
       width: 70%;
       max-width: 280px;
-      background-color: var(--primary-color);
+      background-color: var(--h1-color);
       padding: 5rem 1.5rem 2rem;
       flex-direction: column;
       align-items: flex-start;
@@ -469,7 +469,7 @@
     .courses-dropdown,
     .lang-dropdown {
       position: static;
-      background: var(--primary-color);
+      background: var(--h1-color);
       box-shadow: none;
       width: 100%;
       margin-left: 0.5rem;

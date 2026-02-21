@@ -23,8 +23,6 @@
       --label-color: <?= $culoareLabel ?>;
       --header-color: <?= $culoareHeader ?>;
       --footer-color: <?= $culoareFooter ?>;
-      --primary-color: <?= $culoarePrincipala ?>;
-      --secondary-color: <?= $culoareSecundara ?>;
     }
   </style>
 </head>

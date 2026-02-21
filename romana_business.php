@@ -14,13 +14,13 @@ require_once "config.php";
     <!-- CSS -->
     <link rel="stylesheet" href="css/style-pagini-text.css">
     <style>
-        :root {
-            --body-color: <?= $culoareBody ?>;
-            --h1-color: <?= $culoareH1 ?>;
-            --label-color: <?= $culoareLabel ?>; 
-            --primary-color: <?= $culoarePrincipala ?>;
-            --secondary-color: <?= $culoareSecundara ?>;
-        }
+    :root {
+      --body-color: <?= $culoareBody ?>;
+      --h1-color: <?= $culoareH1 ?>;
+      --label-color: <?= $culoareLabel ?>;
+      --header-color: <?= $culoareHeader ?>;
+      --footer-color: <?= $culoareFooter ?>;
+    }
     </style>
 </head>
 

@@ -68,7 +68,7 @@ section {
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--secondary-color);
+    color: var(--body-color);
     font-size: 5vw;
     font-weight: bold;
     text-shadow: 0 0 25px rgba(0,0,0,0.8);
