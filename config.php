@@ -188,8 +188,8 @@ Recomandate pentru formări intensive în grup, pregătirea examenelor sau pentr
         // contact
         'titlu-contact' => 'Contact',
         'text-contact' => '<p>Pentru detalii privind cursurile de limba franceză și limba română, cu accent pe comunicarea generală, profesională și medicală, poți să ne contactezi direct:</p>
-<br>Telefon: ' . $phone_contact .'
-<br>E-mail: ' . $mail_contact .'<br><br>
+<br>Telefon: ' . encode_string($phone_contact) .' 
+<br>E-mail: <a href="mailto:' . encode_string($mail_contact) . '" >' . $mail_contact .'</a><br><br>
 <p>Îți vom răspunde cu plăcere și te vom ajuta să alegi cursul potrivit nevoilor tale.</p>',
         // pregatire_examene_delf 
         'titlu-pregatire-delf' => 'Pregătire examene DELF / DALF',
@@ -515,8 +515,8 @@ Recommandées pour des formations intensives en groupe, la préparation aux exam
         // contact
         'titlu-contact' => 'Contact',
         'text-contact' => '<p>Pour plus de détails concernant les cours de langue française et de langue roumaine, avec un accent sur la communication générale, professionnelle et médicale, tu peux nous contacter directement:</p>
-<br>Téléphone : ' . $phone_contact . '
-<br>E-mail : ' . $mail_contact .'<br><br>
+<br>Téléphone : ' . encode_string($phone_contact) .' 
+<br>E-mail : <a href="mailto:' . encode_string($mail_contact) . '" >' . $mail_contact .'</a><br><br>
 <p>Nous te répondrons avec plaisir et t’aiderons à choisir le cours le plus adapté à tes besoins.</p>',
         // pregatire_examene_delf 
         'titlu-pregatire-delf' => 'Préparation aux examens DELF / DALF',
@@ -720,12 +720,12 @@ Les paramètres relatifs aux cookies peuvent être modifiés directement dans le
 
 
 // ---------- LIMBA SELECTATA ----------
-// 1. Dacă e GET, salvăm în sesiune
+// 1. Dacă e GET, salvam in sesiune
 if (isset($_GET['lang']) && isset($translations[$_GET['lang']])) {
     $lang = $_GET['lang'];
     $_SESSION['lang'] = $lang;
 }
-// 2. Dacă nu e GET, verificăm sesiunea
+// 2. Dacă nu e GET, verificam sesiunea
 elseif (isset($_SESSION['lang'])) {
     $lang = $_SESSION['lang'];
 }
@@ -734,8 +734,20 @@ else {
     $lang = 'ro';
 }
 
-// Preluăm traducerile pentru această limba
+// Preluam traducerile pentru aceasta limba
 $t = $translations[$lang];
 
 // Highlight header pagina curenta
 $currentPage = basename($_SERVER['PHP_SELF']);
+
+
+// Securizare string (mail + phone)
+function encode_string($string) {
+    $encoded = '';
+    for ($i = 0; $i < strlen($string); $i++) {
+        $encoded .= '&#' . ord($string[$i]) . ';';
+    }
+    return $encoded;
+}
+
+?>

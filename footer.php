@@ -31,7 +31,7 @@ require_once "config.php";
             <a href="termeni_conditii.php" class="footer-link"><?= $t['termeni'] ?></a>
 
             <p class="footer-info">&copy; 2026 <?= $t['nume_aplicatie'] ?>.<?= $t['drepturi'] ?></p>
-            <p class="footer-info"><?= $t['contact'] ?>: <?= $mail_contact ?></p>
+            <p class="footer-info"><?= $t['contact'] ?>: <a href="mailto:<?= encode_string($mail_contact) ?>"><?= encode_string($mail_contact) ?></a></p>
         </div>
 
         <!-- Right Section -->

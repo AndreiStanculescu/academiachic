@@ -218,3 +218,13 @@ img {
         padding: 0.8rem 1rem;
     }
 }
+
+/* Colorare link mail */
+.hero-content label a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hero-content label a:hover {
+    text-decoration: underline;
+}
