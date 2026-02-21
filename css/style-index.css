@@ -158,8 +158,14 @@ body {
 
 @media (max-width: 600px) {
     .hero {
-        background-image: none; 
+        background-image: none;
         background-color: var(--body-color);
+    }
+
+    .cards-section {
+        position: relative;
+        z-index: 1;
+        padding: 12.5vh 20px 60px 20px;
     }
 }
 
