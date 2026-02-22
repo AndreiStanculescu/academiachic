@@ -17,16 +17,7 @@
   /* LOGO */
   .logo {
     margin-right: auto;
-    /* font-family: 'Playfair Display', serif; */
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Cormorant Garamond', serif; */
-    /* font-family: 'Great Vibes', cursive; */
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Dancing Script', cursive;
-    /* font-family: 'Allura', cursive; */
-    /* font-family: 'Sacramento', cursive; */
-    /* font-family: 'Patrick Hand', cursive; */
-
     font-size: 2.25rem;
     line-height: 1;
     color: var(--body-color);
@@ -106,7 +97,7 @@
   }
 
   .lang-btn {
-    background: var(--h1-color);
+    background: var(--header-color);
     border: 1px solid #fff;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -174,7 +165,7 @@
   }
 
   .courses-btn {
-    background: var(--h1-color);
+    background: var(--header-color);
     border: 1px solid #fff;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -315,23 +306,6 @@
     box-shadow: 0 0 0 2px #fff;
   }
 
-  @media (max-width: 1024px) {
-    .main-header {
-      padding: 0 1rem;
-      /* height: 12vh; */
-    }
-
-    .navbar {
-      gap: 0.7rem;
-    }
-
-    .nav-link,
-    .courses-btn,
-    .lang-btn {
-      font-size: 1vw;
-    }
-
-  }
 
   /* Linkuri fixe */
   .main-links {
@@ -348,7 +322,6 @@
     gap: 1.5rem;
     width: 100%;
   }
-
 
   /* MEDIA */
   @media (max-width: 1290px) {
@@ -377,7 +350,24 @@
     }
   }
 
-  /* TABLETE */
+    @media (max-width: 1024px) {
+    .main-header {
+      padding: 0 1rem;
+      /* height: 12vh; */
+    }
+
+    .navbar {
+      gap: 0.7rem;
+    }
+
+    .nav-link,
+    .courses-btn,
+    .lang-btn {
+      font-size: 1vw;
+    }
+
+  }
+  
   @media (max-width: 990px) {
     .hamburger {
       display: flex;
@@ -398,7 +388,7 @@
       height: 100vh;
       width: 70%;
       max-width: 280px;
-      background-color: var(--h1-color);
+      background-color: var(--header-color);
       padding: 5rem 1.5rem 2rem;
       flex-direction: column;
       align-items: flex-start;
@@ -423,15 +413,15 @@
     .courses-dropdown,
     .lang-dropdown {
       position: static;
-      background: var(--h1-color);
+      background: var(--header-color);
       box-shadow: none;
       width: 100%;
       margin-left: 0.5rem;
     }
 
-    .chevron {
+    /* .chevron {
       display: none;
-    }
+    } */
   }
 
 
@@ -456,7 +446,7 @@
       height: 100vh;
       width: 70%;
       max-width: 280px;
-      background-color: var(--h1-color);
+      background-color: var(--header-color);
       padding: 5rem 1.5rem 2rem;
       flex-direction: column;
       align-items: flex-start;
@@ -474,15 +464,15 @@
     .courses-dropdown,
     .lang-dropdown {
       position: static;
-      background: var(--h1-color);
+      background: var(--header-color);
       box-shadow: none;
       width: 100%;
       margin-left: 0.5rem;
     }
 
-    .chevron {
+    /* .chevron {
       display: none;
-    }
+    } */
 
     .hamburger span {
       height: 4px;

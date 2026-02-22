@@ -45,12 +45,6 @@ require_once "config.php";
                 <a href="#" class="social-icon" title="Instagram">
                     <img src="assets/instagram.png" alt="Instagram">
                 </a>
-                <a href="#" class="social-icon" title="YouTube">
-                    <img src="assets/youtube.png" alt="YouTube">
-                </a>
-                <a href="#" class="social-icon" title="TikTok">
-                    <img src="assets/tiktok.png" alt="TikTok">
-                </a>
             </div>
         </div>
 

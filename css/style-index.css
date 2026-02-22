@@ -46,7 +46,46 @@ body {
 
 }
 
-/* Linie verticală peste imagini */
+  /* LOGO */
+  .logo-a {
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 82px;
+    line-height: 1;
+    color: var(--body-color);
+    letter-spacing: 2px;
+    position: relative;
+    top:5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 2rem; 
+  }
+
+  
+  .logo-a::before,
+  .logo-a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 19rem;
+    background: var(--body-color);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .logo-a::before {
+    top: -10px;
+  }
+
+  .logo-a::after {
+    bottom: -10px;
+  }
+
+
+
+
+/* Linie verticala */
 /* .hero::before {
     content: '';
     position: absolute;
@@ -57,13 +96,13 @@ body {
     height: 100%; 
     background-color: var(--h1-color); 
     z-index: 1;
-} */
+} 
 
 /* SECTIUNE CARTONASE */
 .cards-section {
     position: relative;
     z-index: 1;
-    padding: 25vh 20px 60px 20px;
+    padding: 20vh 20px 60px 20px;
 }
 
 .cards-container {

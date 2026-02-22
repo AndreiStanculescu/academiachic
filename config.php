@@ -28,7 +28,7 @@ $logo = "assets/logo.png";
 $culoareBody = "#F6D6D8"; //"#fcd9f7";
 $culoareH1 = "#222";
 $culoareLabel = "#222";
-$culoareHeader = "#222";
+$culoareHeader = "#7A7A7A"; // #696969 //"#222";
 $culoareFooter= "#222";
 
 // Header / footer
