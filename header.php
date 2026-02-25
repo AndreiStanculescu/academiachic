@@ -5,7 +5,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style-header.css">
+  <!-- <link rel="stylesheet" href="css/style-header.css"> -->
+  <link rel="stylesheet" href="css/style-header.css?v=<?php echo filemtime('css/style-header.css'); ?>">
   <style>
     :root {
       --body-color: <?= $culoareBody ?>;
