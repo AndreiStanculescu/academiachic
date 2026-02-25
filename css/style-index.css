@@ -13,7 +13,8 @@ body {
     min-height: 100vh;
     font-family: "Absolut Headline Web 2021";
     color: #fff;
-    background-color: white; /*var(--body-color); */
+    background-color: white;
+    /*var(--body-color); */
 }
 
 :root {
@@ -43,18 +44,22 @@ body {
 /* fundal */
 .hero-img {
     position: absolute;
-    top:0%;            
-    width: auto;             /* nu se întinde pe width */
-    height: auto;            /* păstrează proporțiile */
-    min-width: 100%;         /* să acopere lățimea ecranului */
-    min-height: 100%;        /* să acopere înălțimea ecranului */
+    top: 0%;
+    width: auto;
+    /* nu se întinde pe width */
+    height: auto;
+    /* păstrează proporțiile */
+    min-width: 100%;
+    /* să acopere lățimea ecranului */
+    min-height: 100%;
+    /* să acopere înălțimea ecranului */
     max-width: none;
     max-height: none;
     z-index: 1;
 }
 
-  /* LOGO */
-  .logo-a {
+/* LOGO */
+.logo-a {
     margin-right: auto;
     font-family: 'Dancing Script', cursive;
     font-size: 82px;
@@ -62,17 +67,23 @@ body {
     color: var(--body-color);
     letter-spacing: 2px;
     position: relative;
-    top:5rem;
+    top: 5rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    margin-bottom: 2rem; 
-    z-index:2;
-  }
+    margin-bottom: 2rem;
+    z-index: 2;
+}
 
-  
-  .logo-a::before,
-  .logo-a::after {
+/* Pictograma */
+.hero-logo-mobile {
+    display: none;
+    z-index: 2;
+}
+
+
+.logo-a::before,
+.logo-a::after {
     content: '';
     position: absolute;
     height: 2px;
@@ -80,15 +91,15 @@ body {
     background: var(--body-color);
     left: 50%;
     transform: translateX(-50%);
-  }
+}
 
-  .logo-a::before {
+.logo-a::before {
     top: -10px;
-  }
+}
 
-  .logo-a::after {
+.logo-a::after {
     bottom: -10px;
-  }
+}
 
 
 
@@ -205,15 +216,44 @@ body {
 }
 
 @media (max-width: 600px) {
-    /* .hero {
-        background-image: none;
+    .hero {
         background-color: var(--body-color);
-    } */
+        /* sau orice culoare vrei */
+    }
+
+    .hero-img {
+        display: none;
+        /* ascunde imaginea de fundal */
+    }
+
+    /* LOGO */
+    .logo-a {
+        top: 2rem;
+        color: black;
+        font-size: 42px;
+    }
+
+    .logo-a::before,
+    .logo-a::after {
+        background: black;
+        height: 1px;
+        width: 9rem;
+    }
+
+    /* Pictograma */
+    .hero-logo-mobile {
+        display: block;
+        width: 12rem;
+        height: auto;
+        margin: 1rem 2rem 0rem;
+        z-index: 2;
+    }
+
 
     .cards-section {
         position: relative;
         z-index: 2;
-        padding: 12.5vh 20px 60px 20px;
+        padding: 0vh 20px 60px 20px;
     }
 }
 

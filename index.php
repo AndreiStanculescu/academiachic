@@ -40,11 +40,12 @@ require_once "config.php";
     <section class="hero">
         <img src="../assets/poza_acasa2.png" class="hero-img">
 
-
-
         <div class="logo-a">
             <span><?= $t['nume_aplicatie'] ?></span>
         </div>
+
+        <!-- Pictograma -->
+        <img src="assets/logo.png" alt="Logo mic" class="hero-logo-mobile">
 
         <section class="cards-section">
             <!-- <h2 class="cards-title">L'académie Chic</h2> -->
