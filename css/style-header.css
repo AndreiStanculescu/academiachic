@@ -456,6 +456,16 @@
 
   /* TELEFOANE */
   @media (max-width: 480px) {
+
+    .logo {
+      display: none;
+    }
+
+     .logo-icon-wrapper {
+        margin-right: auto;
+        margin-left: 0;
+    }
+
     .hamburger {
       display: flex;
       margin-right: 1rem;
