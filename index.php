@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../config.php';
-
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
 ?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
@@ -35,10 +37,8 @@ require_once __DIR__ . '/../config.php';
 <body>
     <?php include 'header.php'; ?>
 
-
-
     <section class="hero">
-        <img src="../assets/poza_acasa2.png" class="hero-img">
+        <!-- <img src="../assets/poza_acasa2.png" class="hero-img"> -->
 
         <div class="logo-a">
             <span><?= $t['nume_aplicatie'] ?></span>
