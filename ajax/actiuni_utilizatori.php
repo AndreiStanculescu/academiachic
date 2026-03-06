@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/init.php';
 
 $id = $_POST['id'] ?? null;
 $action = $_POST['action'] ?? null;

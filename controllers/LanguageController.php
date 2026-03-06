@@ -18,7 +18,6 @@ class LanguageController {
     }
 }
 
-// Creează controllerul
 $langController = new LanguageController($translations);
 $lang = $langController->getLang();
 $t = $langController->getTranslations();

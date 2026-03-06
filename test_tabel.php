@@ -3,7 +3,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <?php
-require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/init.php';
 require_once "lib/datatables.class.php";
 require_once "lib/tabel_utilizatori.php";
 require_once "lib/tabel_cursuri.php";
