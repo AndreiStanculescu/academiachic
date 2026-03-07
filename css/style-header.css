@@ -132,7 +132,7 @@
 
 .nav-link.active {
   /* background-color: var(--body-color); */
-  color: var(--h1-color);
+  /* color: var(--h1-color); */
   /* box-shadow: 0 0 0 2px var(--body-color); */
 }
 
