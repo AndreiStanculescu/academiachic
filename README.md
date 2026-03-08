@@ -1,66 +1,74 @@
 <h1 align="center"><strong>Academia Chic – Website</strong></h1>
 
-Website-ul Academia Chic este un site de prezentare realizat în PHP, destinat promovării cursurilor de limba română și franceză cu meditator.
-Proiectul funcționează ca o carte de vizită online, punând accent pe conținut, claritate și suport multi-limbă.
+Website-ul Academia Chic este un site de prezentare realizat in PHP, destinat promovarii cursurilor de limba romana si franceza cu meditator.  
+Proiectul functioneaza ca o carte de vizita online, punand accent pe continut, claritate si suport multi-limba.
 
 ## 📌 Project Overview
 
-Aplicația oferă:
+Aplicatia ofera:
 
-- pagină „Acasă” interactivă
-- pagini informative despre cursuri și servicii
-- suport multi-language (🇷🇴 Română / 🇫🇷 Franceză)
-- date de contact pentru înscriere și informații
-- structură simplă, ușor de extins
+- pagina „Acasa” interactiva
+- pagini informative despre cursuri si servicii
+- suport multi-language (🇷🇴 Romana / 🇫🇷 Franceza)
+- date de contact pentru inscriere si informatii
+- structura simpla, usor de extins
 
-Nu include logică de autentificare, baze de date sau panou administrativ.
+Nu include logica de autentificare, baze de date sau panou administrativ.
 
 ## 🧩 Application Structure
 
 ``` bash
 academiachic/
 │
-├── ajax/        # request-uri asincrone (backend logic)
-├── assets/      # imagini, iconuri, media
-├── css/         # stiluri separate pe componente/pagini
-├── lib/         # clase/helpers/tabele
-├── *.php        # pagini site
-├── config.php   # configurări globale
-├── header.php   # layout header comun
-├── footer.php   # layout footer comun
-└── index.php    # pagina principală
+└───www/
+    ├───ajax/    # request-uri asincrone (backend logic)
+    ├───assets/  # imagini, iconuri, media
+    ├───controllers/    # clase controller pentru logica MVC
+    ├───css/     # stiluri separate pe componente/pagini
+    ├───lib/     # clase/helpers/tabele
+    ├───models/  # modele de date (PHP classes pentru entitati)
+    ├───*.php    # pagini site
+    └───README.md   # documentatie locala pentru folderul www
+├───changelog.txt   # log al modificarilor si update-urilor proiectului
+├───config.php  # configurări globale
+└───cron.php    # script PHP pentru task-uri programate (cron jobs)
 ```
 
 ## 🌍 Multi-language Support
 
-Aplicația este gândită pentru conținut tradus, fără framework extern.
-Fisierul config.php returneaza un array care face selecția limbii.
+Aplicatia este gandita pentru continut tradus, fara framework extern.  
+Fișierul `config.php` contine un **array asociativ cu textele pentru fiecare limba**,  iar paginile site-ului folosesc **structura MVC** pentru a prelua si afisa continutul tradus.
+
+---
 
 ## 🏠 Homepage (index.php)
 
-Pagina principală:
+Pagina principala:
 
-- este interactivă
-- prezintă academia și cursurile disponibile
-- oferă navigare clară către paginile interne
-- folosește JavaScript pentru elemente dinamice (UI/UX)
+- este interactiva  
+- prezinta academia si cursurile disponibile  
+- ofera navigare clara catre paginile interne  
+- foloseste JavaScript pentru elemente dinamice (UI/UX)  
+
+---
 
 ## 🎯 Scopul proiectului
 
-- prezentarea serviciilor educaționale
-- acces rapid la informații
-- suport pentru public român și francofon
-- bază solidă pentru extinderi ulterioare
+- prezentarea serviciilor educationale  
+- acces rapid la informatii  
+- suport pentru public roman si francofon  
+- baza solida pentru extinderi ulterioare  
+
+---
 
 ## 🔮 Extensibilitate
 
-Structura permite adăugarea ușoară de:
+Structura permite adaugarea usoara de:
 
-- pagini sau secțiuni noi
-- limbi suplimentare
-- componente UI reutilizabile
-- endpoint-uri AJAX noi
-- îmbunătățiri pentru formularul de contact
-- autentificare și panou de administrare
-- integrare bază de date (MySQL)
-- module de programări sau gestionare cursuri
+- pagini sau sectiuni noi  
+- traduceri de continut suplimentare  
+- magazin online pentru cursuri  
+- pagini de logare pentru utilizatori  
+- pagini de administrare pentru managementul site-ului si cursurilor  
+- integrare baza de date (MySQL)  
+- module de programari sau gestionare cursuri  
