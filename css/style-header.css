@@ -125,15 +125,15 @@
 }
 
 .nav-link:hover {
-  background-color: #fff;
+  /* background-color: var(--body-color); */
   color: var(--h1-color);
   transform: translateY(-2px);
 }
 
 .nav-link.active {
-  background-color: #fff;
-  color: var(--h1-color);
-  box-shadow: 0 0 0 2px #fff;
+  /* background-color: var(--body-color); */
+  /* color: var(--h1-color); */
+  /* box-shadow: 0 0 0 2px var(--body-color); */
 }
 
 .navbar .nav-link:first-child {
@@ -145,7 +145,6 @@
 ========================= */
 .courses-switch {
   position: relative;
-  /* pentru dropdown absolut */
 }
 
 .courses-btn {
@@ -159,14 +158,13 @@
   font-size: 1rem;
   font-family: "Absolut Sans 2021", sans-serif;
   display: flex;
-  /* aliniaza text si chevron */
   align-items: center;
   gap: 0.5rem;
   transition: all 0.2s ease;
 }
 
 .courses-btn:hover {
-  background-color: #fff;
+  /* background-color: var(--body-color); */
   color: var(--h1-color);
   transform: translateY(-2px);
 }
@@ -206,7 +204,7 @@
 }
 
 .courses-link:hover {
-  background-color: #fff;
+  background-color: var(--body-color);
   color: var(--h1-color);
   transform: translateY(-2px);
 }
@@ -241,7 +239,7 @@
 }
 
 .lang-btn:hover {
-  background-color: #fff;
+  /* background-color: var(--body-color); */
   color: var(--h1-color);
   transform: translateY(-2px);
 }
