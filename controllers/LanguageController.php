@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../../config.php';
-require_once __DIR__ . '/../models/language.class.php';
+require_once __DIR__ . '/../models/Language.php';
 
 class LanguageController {
     private $languageModel;
