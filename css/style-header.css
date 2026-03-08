@@ -105,7 +105,6 @@
   display: flex;
   align-items: center;
   gap: 1vw;
-  /* distanta intre butoane */
 }
 
 
@@ -130,11 +129,11 @@
   transform: translateY(-2px);
 }
 
-.nav-link.active {
-  /* background-color: var(--body-color); */
-  /* color: var(--h1-color); */
-  /* box-shadow: 0 0 0 2px var(--body-color); */
-}
+/* .nav-link.active {
+   background-color: var(--body-color); 
+   color: var(--h1-color); 
+   box-shadow: 0 0 0 2px var(--body-color); 
+ }  */
 
 .navbar .nav-link:first-child {
   width: 115px;
@@ -198,7 +197,6 @@
   font-weight: bold;
   font-family: "Absolut Sans 2021", sans-serif;
   font-size: 1rem;
-  /* uniform cu butoanele */
   padding: 0.5rem 1rem;
   transition: all 0.2s ease;
 }
@@ -232,7 +230,6 @@
   font-size: 1rem;
   font-family: "Absolut Sans 2021", sans-serif;
   display: inline-flex;
-  /* text + chevron pe acelasi rand */
   align-items: center;
   gap: 5px;
   transition: all 0.2s ease;
@@ -273,7 +270,6 @@
   font-weight: bold;
   font-family: "Absolut Sans 2021", sans-serif;
   font-size: 1rem;
-  /* uniform cu butoanele */
   padding: 0.5rem 1rem;
   transition: all 0.2s ease;
 }
