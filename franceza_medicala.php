@@ -34,7 +34,7 @@ require_once __DIR__ . '/init.php';
             <label><?= $t['text-franceza-medicala'] ?></label>
         </div>
 
-        <img src="assets/franceza_medicala.png" alt="Franceza Medicala">
+        <img src="assets/franceza_medicala.webp" alt="Franceza Medicala">
 
     </section>
 

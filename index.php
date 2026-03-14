@@ -41,14 +41,14 @@ header("Expires: 0");
     <?php include 'header.php'; ?>
 
     <section class="hero">
-        <!-- <img src="../assets/poza_acasa2.png" class="hero-img"> -->
+        <!-- <img src="../assets/poza_acasa2.webp" class="hero-img"> -->
 
         <div class="logo-a">
             <span><?= $t['nume_aplicatie'] ?></span>
         </div>
 
         <!-- Pictograma -->
-        <img src="assets/logo.png" alt="Logo mic" class="hero-logo-mobile">
+        <img src="<?= $logo ?>" alt="Logo mic" class="hero-logo-mobile">
 
         <section class="cards-section">
             <!-- <h2 class="cards-title">L'académie Chic</h2> -->

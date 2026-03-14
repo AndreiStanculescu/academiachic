@@ -23,7 +23,7 @@
 
     <div class="logo-icon-wrapper">
       <a href="index.php" class="logo-link">
-        <img src="assets/logo.png" alt="Icon" class="logo-icon">
+        <img src="<?= $logo ?>" alt="Icon" class="logo-icon">
       </a>
     </div>
 

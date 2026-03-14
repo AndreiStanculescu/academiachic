@@ -34,7 +34,7 @@ require_once __DIR__ . '/init.php';
             <label><?= $t['text-contact'] ?></label>
         </div>
 
-        <img src="assets/contact.png" alt="Contact">
+        <img src="assets/contact.webp" alt="Contact">
 
     </section>
 

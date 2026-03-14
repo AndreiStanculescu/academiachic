@@ -34,7 +34,7 @@ require_once __DIR__ . '/init.php';
             <label><?= $t['text-romana-generala'] ?></label>
         </div>
 
-        <img src="assets/romana_generala.png" alt="Romana Generala">
+        <img src="assets/romana_generala.webp" alt="Romana Generala">
 
     </section>
 

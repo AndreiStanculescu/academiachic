@@ -34,7 +34,7 @@ require_once __DIR__ . '/init.php';
             <label><?= $t['text-franceza-business'] ?></label>
         </div>
 
-        <img src="assets/franceza_business.png" alt="Franceza Business">
+        <img src="assets/franceza_business.webp" alt="Franceza Business">
 
     </section>
 

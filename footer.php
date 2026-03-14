@@ -40,10 +40,10 @@ require_once __DIR__ . '/init.php';
 
             <div class="social-icons">
                 <a href="#" class="social-icon" title="Facebook">
-                    <img src="assets/facebook.png" alt="Facebook">
+                    <img src="assets/facebook.webp" alt="Facebook">
                 </a>
                 <a href="#" class="social-icon" title="Instagram">
-                    <img src="assets/instagram.png" alt="Instagram">
+                    <img src="assets/instagram.webp" alt="Instagram">
                 </a>
             </div>
         </div>

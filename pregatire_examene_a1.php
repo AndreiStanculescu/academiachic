@@ -33,7 +33,7 @@ require_once __DIR__ . '/init.php';
             <h1><?= $t['titlu-pregatire-a1'] ?></h1>
             <label><?= $t['text-pregatire-a1'] ?></label>
         </div>
-        <img src="assets/pregatire_examene_a1.png" alt="Despre Noi">
+        <img src="assets/pregatire_examene_a1.webp" alt="Despre Noi">
     </section>
 
     <?php include 'footer.php'; ?>

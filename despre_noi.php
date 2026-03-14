@@ -42,7 +42,7 @@ require_once __DIR__ . '/init.php';
             </div>
         </div>
 
-        <img src="assets/despre_noi.png" alt="Despre Noi">
+        <img src="assets/despre_noi.webp" alt="Despre Noi">
 
     </section>
 

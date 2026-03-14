@@ -34,7 +34,7 @@ require_once __DIR__ . '/init.php';
             <label><?= $t['text-durata-formatul-cursurilor'] ?></label>
         </div>
 
-        <img src="assets/durata_si_formatul_cursurilor.png" alt="Durata si Formatul Cursurilor">
+        <img src="assets/durata_si_formatul_cursurilor.webp" alt="Durata si Formatul Cursurilor">
 
     </section>
 
