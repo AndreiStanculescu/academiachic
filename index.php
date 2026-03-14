@@ -36,6 +36,8 @@ header("Expires: 0");
 </head>
 
 <body>
+
+    <?php include 'cookies.php'; ?>
     <?php include 'header.php'; ?>
 
     <section class="hero">
