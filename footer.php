@@ -39,10 +39,10 @@ require_once __DIR__ . '/init.php';
             <h3><?= $t['retele-sociale'] ?>:</h3>
 
             <div class="social-icons">
-                <a href="#" class="social-icon" title="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61576521630275" class="social-icon" title="Facebook">
                     <img src="assets/facebook.webp" alt="Facebook">
                 </a>
-                <a href="#" class="social-icon" title="Instagram">
+                <a href="https://www.instagram.com/academia.chic" class="social-icon" title="Instagram">
                     <img src="assets/instagram.webp" alt="Instagram">
                 </a>
             </div>
